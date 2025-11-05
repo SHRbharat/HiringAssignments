@@ -1,0 +1,36 @@
+# Ignore node_modules at any level
+node_modules/
+**/node_modules/
+
+# Environment files (any depth)
+.env
+**/.env
+.env.*
+**/.env.*
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build / dist outputs
+dist/
+build/
+coverage/
+out/
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
+
+# IDE/editor configs
+.vscode/
+.idea/
+*.swp
+
+# Cache
+.cache/
+.nyc_output/
